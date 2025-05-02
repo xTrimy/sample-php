@@ -13,6 +13,7 @@ final class Routes
     public static function init()
     {
         Route::get('/home', HomeController::class, 'index');
+        Route::get('/', HomeController::class, 'index');
         Route::get('/signup', SignUpController::class, 'index');
         Route::post('/signup', SignUpController::class, 'store');
         Route::get('/login', LoginController::class, 'index');
