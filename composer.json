@@ -1,0 +1,17 @@
+{
+    "name": "xtrimy/simple_php_app",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "View\\": "views/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xTrimy",
+            "email": "Mohamed.ashraf881999@gmail.com"
+        }
+    ],
+    "require": {}
+}
